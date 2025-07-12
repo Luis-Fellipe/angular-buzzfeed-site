@@ -11,7 +11,9 @@ O projeto se destaca por ser inteiramente front-end, com lógica de decisão bas
 
 ## 📸 Prévia
 
-<img src="/public/preview.png" alt="Preview do projeto Buzzfeed Quiz" width="700" align="center"/>
+<div align="center">
+  <img src="./public/preview.png" alt="Preview do projeto Buzzfeed Quiz" width="700"/>
+</div>
 
 > *Imagem ilustrativa da tela inicial do quiz “Você seria um herói ou vilão?”*
 
