@@ -1,27 +1,58 @@
-# ProjetoBuzzfeed
+# Projeto Angular - Quiz estilo Buzzfeed 🧠✨
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+## 📌 Sobre o Projeto
 
-## Development server
+Este projeto é um quiz interativo no estilo BuzzFeed, desenvolvido com Angular 18 e seus novos recursos standalone.  
+O objetivo é responder a uma série de perguntas e, com base nas suas escolhas, descobrir se você seria um **herói ou um vilão**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O projeto se destaca por ser inteiramente front-end, com lógica de decisão baseada em contagem de respostas — cada opção carrega um "alias" (`A` ou `B`) que influencia no resultado final.
 
-## Code scaffolding
+> Projeto desenvolvido com fins educativos, voltado para praticar Angular standalone, componentização e manipulação de dados dinâmicos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📸 Prévia
 
-## Build
+<img src="/public/preview.png" alt="Preview do projeto Buzzfeed Quiz" width="700" align="center"/>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> *Imagem ilustrativa da tela inicial do quiz “Você seria um herói ou vilão?”*
 
-## Running unit tests
+## 🛠 Tecnologias Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Angular 18](https://angular.io/)
+- Standalone Components
+- Declarative Control Flow (`@if`, `@for`)
+- TypeScript
+- HTML5 e CSS3
+- RxJS (básico)
 
-## Running end-to-end tests
+## 🌐 Acesse Online
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Confira a versão publicada via GitHub Pages:  
+👉 [luis-fellipe.github.io/angular-buzzfeed-site](https://luis-fellipe.github.io/angular-buzzfeed-site/)
 
-## Further help
+## ▶️ Como Executar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+> Este projeto também pode ser executado localmente para fins de estudo. Veja abaixo:
+
+Antes de iniciar, é necessário ter o Node.js instalado em sua máquina.
+
+Depois, siga os passos abaixo:
+
+```bash
+# Clone o repositório
+git clone https://github.com/Luis-Fellipe/angular-buzzfeed-site.git
+
+# Acesse a pasta do projeto
+cd angular-buzzfeed-site
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm start
+```
+
+O projeto estará disponível em `http://localhost:4200`.
+
+## 🔗 Linkedin
+
+www.linkedin.com/in/luis-fellipe-real
